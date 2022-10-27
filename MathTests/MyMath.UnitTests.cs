@@ -18,6 +18,7 @@ namespace MathTests
 
             double actualResult = rooter.SquareRoot(input);
 
+            //delta is the expected accuracy
             Assert.AreEqual(expectedResult, actualResult, delta: expectedResult / 100);
 
         }
@@ -28,6 +29,8 @@ namespace MathTests
             Rooter rooter = new Rooter();
 
             //Try a range of values
+            // 1e-8 = 0.00000001 decimal
+            // 1e+8 = 100000000 decimal
             for (double expected = 1e-8; expected  < 1e+8; expected *= 3.2)
             {
                 RooterOneValue(rooter, expected);
