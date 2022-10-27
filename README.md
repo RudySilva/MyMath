@@ -9,7 +9,9 @@ WALKTHROUGH: TEST-DRIVEN DEVELOPMENT USING TEST EXPLORER
 https://learn.microsoft.com/en-us/visualstudio/test/quick-start-test-driven-development-with-test-explorer?view=vs-2022
 
 
-Firstly, I have read the Pluralsight website research that gives a brief explanation of what is TDD and why to use it.
+Firstly, I have read the Pluralsight website research that gives a brief explanation of what is TDD and why to use it:
+
+https://www.pluralsight.com/guides/test-driven-development-research
 
 What is TDD?
 
@@ -52,11 +54,3 @@ Industry studies: professionals on real-world projects.
 Conclusion
 
 The real project with professionals was the scenario that most had benefits improving internal and external quality, even that you just can experience productivity gains in long term, for me and everyone who spends more time fixing bugs than we think we should agree that is a trade-off, but at the end the of the day, if you write the tests before or after does not have a huge difference as long the final result has unit tests for the critical tasks.
-
-
-References
-
-https://learn.microsoft.com/en-us/visualstudio/test/quick-start-test-driven-development-with-test-explorer?view=vs-2022
-
-https://www.pluralsight.com/guides/test-driven-development-research
-
